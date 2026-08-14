@@ -1,11 +1,5 @@
 # luminancexe
 
-> Recruiter-friendly proof and contact path.
-
-**Theme:** GitHub · **Style:** Detailed · **Agent:** Full-Stack Engineer
-
-## Header
-Hi, I'm **luminancexe**. This README is tuned for **get hired** with a GitHub visual system.
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=luminancexe&theme=github-dark&mode=light" />
