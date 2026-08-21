@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="100%" height="auto">
+  <defs>
+    <linearGradient id="d-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="45%" stop-color="#22d3ee" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="55%" stop-color="#818cf8" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#818cf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="d-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes d-pulse {
+      0%, 100% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.1); }
+    }
+    .d-beacon { transform-origin: 600px 18px; animation: d-pulse 3s ease-in-out infinite; }
+  </style>
+
+  <line x1="40" y1="18" x2="1160" y2="18" stroke="url(#d-line-grad)" stroke-width="1" />
+  <line x1="300" y1="18" x2="900" y2="18" stroke="url(#d-line-grad)" stroke-width="2" filter="url(#d-glow)" opacity="0.6" />
+
+  <g stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.5">
+    <line x1="200" y1="14" x2="200" y2="22" />
+    <line x1="400" y1="15" x2="400" y2="21" />
+    <line x1="800" y1="15" x2="800" y2="21" />
+    <line x1="1000" y1="14" x2="1000" y2="22" />
+  </g>
+
+  <g class="d-beacon">
+    <circle cx="600" cy="18" r="10" fill="#00f2fe" fill-opacity="0.15" filter="url(#d-glow)" />
+    <polygon points="600,10 608,18 600,26 592,18" fill="#02040a" stroke="#22d3ee" stroke-width="1.2" />
+    <circle cx="600" cy="18" r="2" fill="#ffffff" />
+  </g>
+</svg>

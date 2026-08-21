@@ -1,18 +1,62 @@
-## luminancexe
+<div align="center">
 
-<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Connect -->
+<!-- ==================== HERO OBSERVATORY ==================== -->
+<img src="./assets/hero.svg" alt="Luminancexe Celestial Observatory" width="100%" />
 
-<!--
-**luminancexe/luminancexe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br/>
 
-Here are some ideas to get you started:
+<!-- ==================== CELESTIAL DIVIDER ==================== -->
+<img src="./assets/divider.svg" alt="Celestial Horizon Divider" width="100%" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<!-- ==================== DEEP SPACE EXPEDITIONS ==================== -->
+<p align="center">
+  <a href="https://github.com/luminancexe/Event-Horizon">
+    <img src="./assets/project_event_horizon.svg" alt="Event Horizon - Relativistic Astrophysics Engine" width="49%" />
+  </a>
+  <a href="https://github.com/luminancexe/PharmaLogix">
+    <img src="./assets/project_pharmalogix.svg" alt="PharmaLogix - Supply Node & Logistics Architecture" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/luminancexe/ClaimIQ">
+    <img src="./assets/project_claimiq.svg" alt="ClaimIQ - Operations Intelligence & Data Quality Platform" width="49%" />
+  </a>
+  <a href="https://github.com/luminancexe/GameDock">
+    <img src="./assets/project_gamedock.svg" alt="GameDock - Dynamic Entertainment Hub & Exchange Platform" width="49%" />
+  </a>
+</p>
+
+<br/>
+
+<!-- ==================== CELESTIAL DIVIDER ==================== -->
+<img src="./assets/divider.svg" alt="Celestial Horizon Divider" width="100%" />
+
+<br/>
+
+<!-- ==================== ORBITAL TECHNICAL CONSTELLATION ==================== -->
+<img src="./assets/tech_matrix.svg" alt="Orbital Technology Constellation Matrix" width="100%" />
+
+<br/>
+
+<!-- ==================== CELESTIAL DIVIDER ==================== -->
+<img src="./assets/divider.svg" alt="Celestial Horizon Divider" width="100%" />
+
+<br/>
+
+<!-- ==================== CELESTIAL TELEMETRY & STATS ==================== -->
+<img src="./assets/telemetry_stats.svg" alt="Celestial Expedition Telemetry & Activity" width="100%" />
+
+<br/>
+
+<!-- ==================== CELESTIAL DIVIDER ==================== -->
+<img src="./assets/divider.svg" alt="Celestial Horizon Divider" width="100%" />
+
+<br/>
+
+<!-- ==================== TRANSMISSION FOOTER ==================== -->
+<img src="./assets/footer.svg" alt="Deep Space Transmission Beacon" width="100%" />
+
+</div>
