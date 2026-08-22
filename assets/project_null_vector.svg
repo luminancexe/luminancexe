@@ -85,7 +85,7 @@
   <!-- Content Section -->
   <g font-family="'JetBrains Mono', 'SF Mono', monospace">
     <text x="190" y="38" font-size="9" font-weight="600" fill="#f59e0b" letter-spacing="1.5">
-      EXPEDITION 05 // TACTICAL SIMULATION
+      EXPEDITION 03 // TACTICAL SIMULATION
     </text>
 
     <g transform="translate(415, 26)">
