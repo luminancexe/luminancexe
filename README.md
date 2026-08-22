@@ -29,6 +29,15 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/luminancexe/Null-Vector">
+    <img src="./assets/project_null_vector.svg" alt="Null-Vector - 3D Tactical FPS & Procedural Engine" width="49%" />
+  </a>
+  <a href="https://github.com/luminancexe/linux-diagnostics-toolkit">
+    <img src="./assets/project_linux_diagnostics.svg" alt="Linux Diagnostics - System Health & Triage Toolkit" width="49%" />
+  </a>
+</p>
+
 <br/>
 
 <!-- ==================== CELESTIAL DIVIDER ==================== -->

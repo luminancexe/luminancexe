@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="nv-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02040a" />
+      <stop offset="50%" stop-color="#120c05" />
+      <stop offset="100%" stop-color="#020308" />
+    </linearGradient>
+
+    <linearGradient id="nv-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#ef4444" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.1" />
+    </linearGradient>
+
+    <radialGradient id="nv-nebula" cx="20%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#7c2d12" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="nv-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes nv-reticle-rot {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes nv-laser-pulse {
+      0%, 100% { opacity: 0.3; transform: scale(0.95); }
+      50% { opacity: 0.9; transform: scale(1.05); }
+    }
+    .nv-rot { transform-origin: 90px 120px; animation: nv-reticle-rot 20s linear infinite; }
+    .nv-pulse { transform-origin: 90px 120px; animation: nv-laser-pulse 3s ease-in-out infinite; }
+  </style>
+
+  <rect x="1" y="1" width="578" height="238" rx="12" fill="url(#nv-card-bg)" stroke="url(#nv-border)" stroke-width="1.2" />
+  <rect x="1" y="1" width="578" height="238" rx="12" fill="url(#nv-nebula)" />
+
+  <g stroke="#f59e0b" stroke-width="1" stroke-opacity="0.6" fill="none">
+    <path d="M 12 24 L 12 12 L 24 12" />
+    <path d="M 568 24 L 568 12 L 556 12" />
+    <path d="M 12 216 L 12 228 L 24 228" />
+    <path d="M 568 216 L 568 228 L 556 228" />
+  </g>
+
+  <!-- Visual Art (Left Pane) - Tactical HUD Target Reticle -->
+  <g id="nv-visual">
+    <!-- Outer Scope Ring -->
+    <circle cx="90" cy="120" r="62" fill="none" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.25" stroke-dasharray="3 6" />
+
+    <!-- Rotating Tactical Reticle -->
+    <g class="nv-rot">
+      <circle cx="90" cy="120" r="46" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.8" stroke-dasharray="16 8 4 8" filter="url(#nv-glow)" />
+      <polygon points="90,70 94,78 86,78" fill="#fbbf24" />
+      <polygon points="90,170 94,162 86,162" fill="#fbbf24" />
+      <polygon points="40,120 48,116 48,124" fill="#fbbf24" />
+      <polygon points="140,120 132,116 132,124" fill="#fbbf24" />
+    </g>
+
+    <!-- 3D Vector Wireframe Geometry (Perspective Lines) -->
+    <g stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4" fill="none">
+      <line x1="50" y1="160" x2="90" y2="120" />
+      <line x1="130" y1="160" x2="90" y2="120" />
+      <line x1="50" y1="80" x2="90" y2="120" />
+      <line x1="130" y1="80" x2="90" y2="120" />
+      <polygon points="65,95 115,95 125,145 55,145" />
+    </g>
+
+    <!-- Central Focal Lock Core -->
+    <g class="nv-pulse">
+      <circle cx="90" cy="120" r="14" fill="#1c1206" stroke="#f59e0b" stroke-width="1.2" />
+      <circle cx="90" cy="120" r="3" fill="#ef4444" filter="url(#nv-glow)" />
+    </g>
+  </g>
+
+  <line x1="172" y1="28" x2="172" y2="212" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 4" />
+
+  <!-- Content Section -->
+  <g font-family="'JetBrains Mono', 'SF Mono', monospace">
+    <text x="190" y="38" font-size="9" font-weight="600" fill="#f59e0b" letter-spacing="1.5">
+      EXPEDITION 05 // TACTICAL SIMULATION
+    </text>
+
+    <g transform="translate(415, 26)">
+      <rect x="0" y="0" width="145" height="18" rx="9" fill="#2d1602" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.5" />
+      <circle cx="10" cy="9" r="2.5" fill="#f59e0b">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#fde68a" letter-spacing="1">TACTICAL ENGINE ACTIVE</text>
+    </g>
+  </g>
+
+  <text x="190" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="1.5">
+    NULL-VECTOR
+  </text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">
+    <text x="190" y="102">Self-contained browser-based sci-fi FPS in Three.js</text>
+    <text x="190" y="120">featuring procedural audio &amp; graphics, AI-driven enemies,</text>
+    <text x="190" y="138">physics movement &amp; tactical combat mechanics.</text>
+  </g>
+
+  <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#f59e0b">
+    <rect x="190" y="172" width="82" height="22" rx="4" fill="#381b05" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="231" y="186" text-anchor="middle">JAVASCRIPT</text>
+
+    <rect x="278" y="172" width="68" height="22" rx="4" fill="#381b05" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="312" y="186" text-anchor="middle">THREE.JS</text>
+
+    <rect x="352" y="172" width="60" height="22" rx="4" fill="#381b05" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="382" y="186" text-anchor="middle">WEBGL</text>
+
+    <rect x="418" y="172" width="138" height="22" rx="4" fill="#381b05" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="487" y="186" text-anchor="middle" fill="#fef08a">PROCEDURAL AI</text>
+  </g>
+
+  <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">
+    <text x="190" y="218" letter-spacing="1">ACCESS REPOSITORY →</text>
+  </g>
+</svg>
