@@ -71,7 +71,7 @@
   <g transform="translate(321, 56)">
     <rect x="0" y="0" width="265" height="114" rx="8" fill="#081426" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.3" />
     <text x="20" y="28" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#64748b" letter-spacing="1">RESEARCH &amp; DEV NODES</text>
-    <text x="20" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#38bdf8" letter-spacing="0.5">10 Repositories</text>
+    <text x="20" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#38bdf8" letter-spacing="0.5">14 Repositories</text>
     <g transform="translate(20, 84)">
       <circle cx="4" cy="0" r="3" fill="#38bdf8" />
       <text x="14" y="3.5" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500" fill="#93c5fd" letter-spacing="1">OPEN SCIENTIFIC CODE</text>
@@ -82,10 +82,10 @@
   <g transform="translate(606, 56)">
     <rect x="0" y="0" width="265" height="114" rx="8" fill="#081426" stroke="#818cf8" stroke-width="0.6" stroke-opacity="0.3" />
     <text x="20" y="28" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#64748b" letter-spacing="1">PRIMARY DISCIPLINES</text>
-    <text x="20" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">Physics &amp; Tactical Systems</text>
+    <text x="20" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">Physics &amp; Aerospace Systems</text>
     <g transform="translate(20, 84)">
       <circle cx="4" cy="0" r="3" fill="#818cf8" />
-      <text x="14" y="3.5" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500" fill="#c7d2fe" letter-spacing="1">ASTROPHYSICS • 3D ENGINES</text>
+      <text x="14" y="3.5" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500" fill="#c7d2fe" letter-spacing="1">AEROSPACE • ASTROPHYSICS</text>
     </g>
   </g>
 
