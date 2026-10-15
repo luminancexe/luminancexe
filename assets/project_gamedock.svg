@@ -81,7 +81,7 @@
       <circle cx="10" cy="9" r="2.5" fill="#60a5fa">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#bfdbfe" letter-spacing="1">EXCHANGE HUB ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bfdbfe" letter-spacing="1">EXCHANGE HUB ACTIVE</text>
     </g>
   </g>
 
@@ -97,16 +97,16 @@
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#60a5fa">
     <rect x="190" y="172" width="48" height="22" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="214" y="186" text-anchor="middle">PHP</text>
+    <text x="214" y="183" dominant-baseline="central" text-anchor="middle">PHP</text>
 
     <rect x="244" y="172" width="92" height="22" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="290" y="186" text-anchor="middle">JAVASCRIPT</text>
+    <text x="290" y="183" dominant-baseline="central" text-anchor="middle">JAVASCRIPT</text>
 
     <rect x="342" y="172" width="128" height="22" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="406" y="186" text-anchor="middle">MARIADB / MYSQL</text>
+    <text x="406" y="183" dominant-baseline="central" text-anchor="middle">MARIADB / MYSQL</text>
 
     <rect x="476" y="172" width="82" height="22" rx="4" fill="#1e3a5f" stroke="#60a5fa" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="517" y="186" text-anchor="middle" fill="#dbeafe">COMMERCE</text>
+    <text x="517" y="183" dominant-baseline="central" text-anchor="middle" fill="#dbeafe">COMMERCE</text>
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">

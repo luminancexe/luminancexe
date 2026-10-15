@@ -82,7 +82,7 @@
       <circle cx="10" cy="9" r="2.5" fill="#10b981">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#a7f3d0" letter-spacing="1">TRIAGE ENGINE ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#a7f3d0" letter-spacing="1">TRIAGE ENGINE ACTIVE</text>
     </g>
   </g>
 
@@ -97,14 +97,14 @@
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#10b981">
-    <rect x="190" y="172" width="105" height="22" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="242" y="186" text-anchor="middle">BASH / SHELL</text>
+    <rect x="190" y="172" width="106" height="22" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="243" y="183" dominant-baseline="central" text-anchor="middle">BASH / SHELL</text>
 
-    <rect x="301" y="172" width="118" height="22" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="360" y="186" text-anchor="middle">LINUX SYSTEMS</text>
+    <rect x="302" y="172" width="118" height="22" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="361" y="183" dominant-baseline="central" text-anchor="middle">LINUX SYSTEMS</text>
 
-    <rect x="425" y="172" width="132" height="22" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="491" y="186" text-anchor="middle" fill="#d1fae5">SYSTEMD AUDIT</text>
+    <rect x="426" y="172" width="132" height="22" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="492" y="183" dominant-baseline="central" text-anchor="middle" fill="#d1fae5">SYSTEMD AUDIT</text>
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">

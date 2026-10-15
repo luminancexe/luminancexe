@@ -226,11 +226,11 @@
     </text>
 
     <text x="600" y="222" text-anchor="middle" font-size="13" font-weight="400" fill="#cbd5e1" letter-spacing="3.5" opacity="0.95">
-      EXPLORING COMPUTATIONAL RELATIVITY • DISTRIBUTED SYSTEMS • DIGITAL EXPANSES
+      EXPLORING COMPUTATIONAL RELATIVITY &#8226; DISTRIBUTED SYSTEMS &#8226; DIGITAL EXPANSES
     </text>
 
     <text x="600" y="260" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="400" fill="#64748b" letter-spacing="2">
-      ORBITAL REF: 45°14'N • VECTOR: 0x7E4 • HORIZON MATRIX • ALL SYSTEMS STABLE
+      ORBITAL REF: 45°14'N &#8226; VECTOR: 0x7E4 &#8226; HORIZON MATRIX &#8226; ALL SYSTEMS STABLE
     </text>
   </g>
 
@@ -246,7 +246,7 @@
       <animate attributeName="r" values="3;7;3" dur="2.5s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.8;0;0.8" dur="2.5s" repeatCount="indefinite" />
     </circle>
-    <text x="-70" y="3.5" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#e2e8f0" letter-spacing="1.5">
+    <text x="-70" y="0" dominant-baseline="central" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#e2e8f0" letter-spacing="1.5">
       CORE TELEMETRY ONLINE
     </text>
   </g>

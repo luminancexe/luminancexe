@@ -96,7 +96,7 @@
       <circle cx="10" cy="9" r="2.5" fill="#c084fc">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#f5d0fe" letter-spacing="1">WAVEFRONT ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#f5d0fe" letter-spacing="1">WAVEFRONT ACTIVE</text>
     </g>
   </g>
 
@@ -111,17 +111,17 @@
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#c084fc">
-    <rect x="190" y="172" width="55" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="217" y="186" text-anchor="middle">JAVA</text>
+    <rect x="190" y="172" width="56" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="218" y="183" dominant-baseline="central" text-anchor="middle">JAVA</text>
 
-    <rect x="251" y="172" width="130" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="316" y="186" text-anchor="middle">A* VS. DIJKSTRA</text>
+    <rect x="252" y="172" width="130" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="317" y="183" dominant-baseline="central" text-anchor="middle">A* VS. DIJKSTRA</text>
 
-    <rect x="387" y="172" width="105" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="439" y="186" text-anchor="middle">DATA STRUCTURES</text>
+    <rect x="388" y="172" width="106" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="441" y="183" dominant-baseline="central" text-anchor="middle">DATA STRUCTURES</text>
 
-    <rect x="498" y="172" width="58" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="527" y="186" text-anchor="middle" fill="#fbcfe8">GRAPHS</text>
+    <rect x="500" y="172" width="58" height="22" rx="4" fill="#2c0b38" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="529" y="183" dominant-baseline="central" text-anchor="middle" fill="#fbcfe8">GRAPHS</text>
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">

@@ -2,28 +2,19 @@
   <defs>
     <linearGradient id="tm-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#02040a" />
-      <stop offset="50%" stop-color="#050a18" />
+      <stop offset="50%" stop-color="#060918" />
       <stop offset="100%" stop-color="#010206" />
     </linearGradient>
 
     <linearGradient id="tm-border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
-      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.4" />
     </linearGradient>
 
-    <radialGradient id="tm-nebula-left" cx="20%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="tm-nebula-mid" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="tm-nebula-right" cx="80%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12" />
+    <radialGradient id="tm-nebula" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#0369a1" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#4f46e5" stop-opacity="0.04" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
@@ -36,158 +27,150 @@
     </filter>
   </defs>
 
-  <style>
-    @keyframes tm-star-pulse {
-      0%, 100% { opacity: 0.3; transform: scale(0.9); }
-      50% { opacity: 0.9; transform: scale(1.1); }
-    }
-    .tm-node-pulse { transform-origin: center; animation: tm-star-pulse 4s ease-in-out infinite; }
-  </style>
-
-  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#tm-card-bg)" stroke="url(#tm-border)" stroke-width="1.2" />
-  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#tm-nebula-left)" />
-  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#tm-nebula-mid)" />
-  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#tm-nebula-right)" />
+  <rect x="1" y="1" width="1198" height="298" rx="12" fill="url(#tm-card-bg)" stroke="url(#tm-border)" stroke-width="1.2" />
+  <rect x="1" y="1" width="1198" height="298" rx="12" fill="url(#tm-nebula)" />
 
   <g stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" fill="none">
-    <path d="M 16 32 L 16 16 L 32 16" />
-    <path d="M 1184 32 L 1184 16 L 1168 16" />
-    <path d="M 16 268 L 16 284 L 32 284" />
-    <path d="M 1184 268 L 1184 284 L 1168 284" />
+    <path d="M 14 26 L 14 14 L 26 14" />
+    <path d="M 1186 26 L 1186 14 L 1174 14" />
+    <path d="M 14 274 L 14 286 L 26 286" />
+    <path d="M 1186 274 L 1186 286 L 1174 286" />
   </g>
 
-  <g font-family="'JetBrains Mono', 'SF Mono', monospace">
-    <text x="40" y="38" font-size="9" font-weight="600" fill="#38bdf8" letter-spacing="2">
+  <!-- Top Title -->
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="50" y="38" font-size="9" font-weight="600" fill="#38bdf8" letter-spacing="2">
       // ORBITAL CAPABILITIES &amp; TECHNICAL CONSTELLATION
     </text>
-    <text x="1160" y="38" text-anchor="end" font-size="9" font-weight="400" fill="#64748b" letter-spacing="1.5">
+    <text x="1150" y="38" text-anchor="end" font-size="9" font-weight="400" fill="#64748b" letter-spacing="1.5">
       VERIFIED SYSTEM PROFICIENCIES
     </text>
   </g>
 
-  <line x1="400" y1="58" x2="400" y2="262" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 6" />
-  <line x1="800" y1="58" x2="800" y2="262" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 6" />
+  <!-- Symmetric Sector Dividers (left margin 50, right margin 50, gaps 55) -->
+  <line x1="407" y1="58" x2="407" y2="262" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 6" />
+  <line x1="793" y1="58" x2="793" y2="262" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 6" />
 
-  <!-- SECTOR 01: CORE LOGIC -->
-  <g transform="translate(40, 68)">
+  <!-- SECTOR 01: CORE LOGIC (x: 50 to 380, w=330) -->
+  <g transform="translate(50, 68)">
     <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#38bdf8" letter-spacing="1">
       SECTOR 01 // CORE SYNTHESIS &amp; LOGIC
     </text>
 
-    <path d="M 12 52 L 72 86 L 168 56 L 240 92 L 310 52" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
+    <path d="M 12 55 L 72 87 L 168 55 L 240 92 L 310 55" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
 
     <g transform="translate(0, 40)">
       <rect x="0" y="0" width="150" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#38bdf8" filter="url(#tm-glow)" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">TypeScript</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">TypeScript</text>
     </g>
 
     <g transform="translate(162, 40)">
       <rect x="0" y="0" width="168" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#facc15" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">JavaScript (ESNext)</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">JavaScript (ESNext)</text>
     </g>
 
     <g transform="translate(0, 82)">
       <rect x="0" y="0" width="150" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#38bdf8" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Python</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Python</text>
     </g>
 
     <g transform="translate(162, 82)">
       <rect x="0" y="0" width="168" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#818cf8" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">PHP &amp; Ecosystem</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">PHP &amp; Ecosystem</text>
     </g>
 
     <g transform="translate(0, 124)">
       <rect x="0" y="0" width="150" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#f97316" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Java</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Java</text>
     </g>
 
     <g transform="translate(162, 124)">
       <rect x="0" y="0" width="168" height="30" rx="6" fill="#081e36" stroke="#38bdf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#4ade80" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Bash &amp; Linux Shell</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Bash &amp; Linux Shell</text>
     </g>
   </g>
 
-  <!-- SECTOR 02: INTERFACES -->
-  <g transform="translate(430, 68)">
+  <!-- SECTOR 02: INTERFACES (x: 435 to 765, w=330) -->
+  <g transform="translate(435, 68)">
     <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#818cf8" letter-spacing="1">
       SECTOR 02 // INTERFACES &amp; RENDERING
     </text>
 
-    <path d="M 12 52 L 80 92 L 180 52 L 260 88 L 310 52" fill="none" stroke="#818cf8" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
+    <path d="M 12 55 L 80 87 L 180 55 L 260 88 L 310 55" fill="none" stroke="#818cf8" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
 
     <g transform="translate(0, 40)">
       <rect x="0" y="0" width="160" height="30" rx="6" fill="#14183a" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#c084fc" filter="url(#tm-glow)" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Three.js / WebGL</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Three.js / WebGL</text>
     </g>
 
     <g transform="translate(172, 40)">
       <rect x="0" y="0" width="158" height="30" rx="6" fill="#14183a" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#22d3ee" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">React &amp; Radix UI</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">React &amp; Radix UI</text>
     </g>
 
     <g transform="translate(0, 82)">
       <rect x="0" y="0" width="160" height="30" rx="6" fill="#14183a" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#38bdf8" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Tailwind CSS</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Tailwind CSS</text>
     </g>
 
     <g transform="translate(172, 82)">
       <rect x="0" y="0" width="158" height="30" rx="6" fill="#14183a" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#f472b6" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Vite Bundler</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Vite Bundler</text>
     </g>
 
     <g transform="translate(0, 124)">
       <rect x="0" y="0" width="330" height="30" rx="6" fill="#14183a" stroke="#818cf8" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#818cf8" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">HTML5 / Modern Responsive CSS</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">HTML5 / Modern Responsive CSS</text>
     </g>
   </g>
 
-  <!-- SECTOR 03: SYSTEMS -->
-  <g transform="translate(830, 68)">
+  <!-- SECTOR 03: SYSTEMS (x: 820 to 1150, w=330) -->
+  <g transform="translate(820, 68)">
     <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#c084fc" letter-spacing="1">
       SECTOR 03 // SYSTEMS &amp; DATA MATRIX
     </text>
 
-    <path d="M 12 52 L 72 86 L 168 56 L 240 92 L 310 52" fill="none" stroke="#c084fc" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
+    <path d="M 12 55 L 72 87 L 168 55 L 240 92 L 310 55" fill="none" stroke="#c084fc" stroke-width="0.75" stroke-opacity="0.25" stroke-dasharray="2 4" />
 
     <g transform="translate(0, 40)">
       <rect x="0" y="0" width="160" height="30" rx="6" fill="#201036" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#f59e0b" filter="url(#tm-glow)" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">MariaDB / MySQL</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">MariaDB / MySQL</text>
     </g>
 
     <g transform="translate(172, 40)">
       <rect x="0" y="0" width="158" height="30" rx="6" fill="#201036" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#4ade80" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Linux Systems</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Linux Systems</text>
     </g>
 
     <g transform="translate(0, 82)">
       <rect x="0" y="0" width="160" height="30" rx="6" fill="#201036" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#c084fc" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Data Quality &amp; QA</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Data Quality &amp; QA</text>
     </g>
 
     <g transform="translate(172, 82)">
       <rect x="0" y="0" width="158" height="30" rx="6" fill="#201036" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#38bdf8" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">REST &amp; APIs</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">REST &amp; APIs</text>
     </g>
 
     <g transform="translate(0, 124)">
       <rect x="0" y="0" width="330" height="30" rx="6" fill="#201036" stroke="#c084fc" stroke-width="0.7" stroke-opacity="0.4" />
       <circle cx="16" cy="15" r="3" fill="#e879f9" />
-      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Aerospace, Graph &amp; Physics Algorithms</text>
+      <text x="32" y="15" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Aerospace, Graph &amp; Physics Algorithms</text>
     </g>
   </g>
 </svg>

@@ -78,7 +78,7 @@
       <circle cx="10" cy="9" r="2.5" fill="#c084fc">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#e9d5ff" letter-spacing="1">DIAGNOSTICS ONLINE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#e9d5ff" letter-spacing="1">DIAGNOSTICS ONLINE</text>
     </g>
   </g>
 
@@ -93,17 +93,17 @@
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#c084fc">
-    <rect x="190" y="172" width="65" height="22" rx="4" fill="#3b0764" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="222" y="186" text-anchor="middle">PYTHON</text>
+    <rect x="190" y="172" width="66" height="22" rx="4" fill="#2d1045" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="223" y="183" dominant-baseline="central" text-anchor="middle">PYTHON</text>
 
     <rect x="261" y="172" width="112" height="22" rx="4" fill="#3b0764" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="317" y="186" text-anchor="middle">DATA QUALITY</text>
+    <text x="317" y="183" dominant-baseline="central" text-anchor="middle">DATA QUALITY</text>
 
-    <rect x="379" y="172" width="105" height="22" rx="4" fill="#3b0764" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="431" y="186" text-anchor="middle">RCM WORKFLOW</text>
+    <rect x="378" y="172" width="106" height="22" rx="4" fill="#2d1045" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="431" y="183" dominant-baseline="central" text-anchor="middle">RCM WORKFLOW</text>
 
     <rect x="490" y="172" width="68" height="22" rx="4" fill="#3b0764" stroke="#c084fc" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="524" y="186" text-anchor="middle" fill="#f3e8ff">ANALYTICS</text>
+    <text x="524" y="183" dominant-baseline="central" text-anchor="middle" fill="#f3e8ff">ANALYTICS</text>
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">

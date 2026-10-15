@@ -99,7 +99,7 @@
       <circle cx="10" cy="9" r="2.5" fill="#38bdf8">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="12.5" font-size="7.5" font-weight="600" fill="#bae6fd" letter-spacing="1">FLIGHT ROUTER ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bae6fd" letter-spacing="1">FLIGHT ROUTER ACTIVE</text>
     </g>
   </g>
 
@@ -114,17 +114,17 @@
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" fill="#38bdf8">
-    <rect x="190" y="172" width="55" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="217" y="186" text-anchor="middle">JAVA</text>
+    <rect x="190" y="172" width="56" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="218" y="183" dominant-baseline="central" text-anchor="middle">JAVA</text>
 
-    <rect x="251" y="172" width="140" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="321" y="186" text-anchor="middle">DIJKSTRA • A* • YEN</text>
+    <rect x="252" y="172" width="140" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="322" y="183" dominant-baseline="central" text-anchor="middle">DIJKSTRA &#8226; A* &#8226; YEN</text>
 
-    <rect x="397" y="172" width="85" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="439" y="186" text-anchor="middle">RADAR HUD</text>
+    <rect x="398" y="172" width="86" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="441" y="183" dominant-baseline="central" text-anchor="middle">RADAR HUD</text>
 
-    <rect x="488" y="172" width="68" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="522" y="186" text-anchor="middle" fill="#bae6fd">ROUTING</text>
+    <rect x="490" y="172" width="68" height="22" rx="4" fill="#082244" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.4" />
+    <text x="524" y="183" dominant-baseline="central" text-anchor="middle" fill="#bae6fd">ROUTING</text>
   </g>
 
   <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748b">
