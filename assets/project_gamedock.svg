@@ -72,16 +72,14 @@
   <line x1="172" y1="28" x2="172" y2="212" stroke="#3b82f6" stroke-width="0.5" stroke-opacity="0.15" stroke-dasharray="4 4" />
 
   <g font-family="'JetBrains Mono', 'SF Mono', monospace">
-    <text x="190" y="38" font-size="9" font-weight="600" fill="#60a5fa" letter-spacing="1.5">
-      EXPEDITION 04 // INTERACTIVE NEXUS
-    </text>
+    <text x="190" y="38" font-size="8.5" font-weight="600" fill="#60a5fa" letter-spacing="1.2">EXPEDITION 04 // INTERACTIVE NEXUS</text>
 
-    <g transform="translate(420, 26)">
-      <rect x="0" y="0" width="140" height="18" rx="9" fill="#172554" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.5" />
+    <g transform="translate(444, 26)">
+      <rect x="0" y="0" width="116" height="18" rx="9" fill="#172554" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.5" />
       <circle cx="10" cy="9" r="2.5" fill="#60a5fa">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bfdbfe" letter-spacing="1">EXCHANGE HUB ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bfdbfe" letter-spacing="1">PLATFORM ACTIVE</text>
     </g>
   </g>
 

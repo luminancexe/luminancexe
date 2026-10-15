@@ -73,16 +73,14 @@
 
   <!-- Content Section -->
   <g font-family="'JetBrains Mono', 'SF Mono', monospace">
-    <text x="190" y="38" font-size="9" font-weight="600" fill="#10b981" letter-spacing="1.5">
-      EXPEDITION 05 // SYSTEMS &amp; TRIAGE
-    </text>
+    <text x="190" y="38" font-size="8.5" font-weight="600" fill="#10b981" letter-spacing="1.2">EXPEDITION 05 // SYSTEM TRIAGE</text>
 
-    <g transform="translate(425, 26)">
-      <rect x="0" y="0" width="135" height="18" rx="9" fill="#022c22" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.5" />
+    <g transform="translate(448, 26)">
+      <rect x="0" y="0" width="112" height="18" rx="9" fill="#022c22" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.5" />
       <circle cx="10" cy="9" r="2.5" fill="#10b981">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#a7f3d0" letter-spacing="1">TRIAGE ENGINE ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#a7f3d0" letter-spacing="1">TRIAGE ACTIVE</text>
     </g>
   </g>
 

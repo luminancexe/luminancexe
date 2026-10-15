@@ -90,16 +90,14 @@
 
   <!-- Content Section -->
   <g font-family="'JetBrains Mono', 'SF Mono', monospace">
-    <text x="190" y="38" font-size="9" font-weight="600" fill="#38bdf8" letter-spacing="1.5">
-      EXPEDITION 07 // AEROSPACE CORRIDORS
-    </text>
+    <text x="190" y="38" font-size="8.5" font-weight="600" fill="#38bdf8" letter-spacing="1.2">EXPEDITION 07 // AEROSPACE FLIGHT</text>
 
-    <g transform="translate(415, 26)">
-      <rect x="0" y="0" width="145" height="18" rx="9" fill="#041f3d" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.5" />
+    <g transform="translate(446, 26)">
+      <rect x="0" y="0" width="114" height="18" rx="9" fill="#041f3d" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.5" />
       <circle cx="10" cy="9" r="2.5" fill="#38bdf8">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bae6fd" letter-spacing="1">FLIGHT ROUTER ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#bae6fd" letter-spacing="1">ROUTER ACTIVE</text>
     </g>
   </g>
 

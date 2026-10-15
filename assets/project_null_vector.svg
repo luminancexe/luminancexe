@@ -84,16 +84,14 @@
 
   <!-- Content Section -->
   <g font-family="'JetBrains Mono', 'SF Mono', monospace">
-    <text x="190" y="38" font-size="9" font-weight="600" fill="#f59e0b" letter-spacing="1.5">
-      EXPEDITION 03 // TACTICAL SIMULATION
-    </text>
+    <text x="190" y="38" font-size="8.5" font-weight="600" fill="#f59e0b" letter-spacing="1.2">EXPEDITION 03 // TACTICAL ENGINE</text>
 
-    <g transform="translate(415, 26)">
-      <rect x="0" y="0" width="145" height="18" rx="9" fill="#2d1602" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.5" />
+    <g transform="translate(444, 26)">
+      <rect x="0" y="0" width="116" height="18" rx="9" fill="#2d1602" stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.5" />
       <circle cx="10" cy="9" r="2.5" fill="#f59e0b">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#fde68a" letter-spacing="1">TACTICAL ENGINE ACTIVE</text>
+      <text x="20" y="9" dominant-baseline="central" font-size="7.5" font-weight="600" fill="#fde68a" letter-spacing="1">TACTICAL ACTIVE</text>
     </g>
   </g>
 
