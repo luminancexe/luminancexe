@@ -38,6 +38,15 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/luminancexe/AstraNav">
+    <img src="./assets/project_astranav.svg" alt="AstraNav - Aerospace Flight Corridor Optimizer & Pathfinder" width="49%" />
+  </a>
+  <a href="https://github.com/luminancexe/PathForge">
+    <img src="./assets/project_pathforge.svg" alt="PathForge - Graph Pathfinding & Algorithmic Wavefront Engine" width="49%" />
+  </a>
+</p>
+
 <br/>
 
 <!-- ==================== CELESTIAL DIVIDER ==================== -->
